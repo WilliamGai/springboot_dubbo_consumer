@@ -9,7 +9,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 @Service
 public class DubboServiceHandler {
 	//消费者
-	@Reference(version="1.0.0", check=false, init=true)
+	@Reference(version="1.0.0", check=false, init=false)
 	public
 	IHelloDubboService helloservice;
 }
