@@ -1,4 +1,4 @@
-package com.williamy.dubbo.consumer;
+package com.williamy.dubbo;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.context.annotation.Bean;
