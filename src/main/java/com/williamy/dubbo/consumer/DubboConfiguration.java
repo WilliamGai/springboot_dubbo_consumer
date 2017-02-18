@@ -68,7 +68,7 @@ public class DubboConfiguration {
         return registry;
     }
 
-    /**协议 */
+   /**协议 */
     @Bean
     public ProtocolConfig protocolConfig() {
         ProtocolConfig protocolConfig = new ProtocolConfig();
